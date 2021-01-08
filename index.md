@@ -13,7 +13,7 @@ humandate: "Feb 16, 17, 18 2021"    # human-readable dates for the workshop (e.g
 humantime: "1:00pm - 4:00pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2021-02-16      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2021-02-18        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Tim Ribaric", "Daniel Brett"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Tim Ribaric", "Daniel Brett","Thomas Guignard"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: []     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["dsl@brocku.ca"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -77,6 +77,11 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 
+<p class="text-center">
+  <a href="https://www.eventbrite.ca/e/sofware-carpentry-for-reading-week-tickets-136018680535" target="_blank">
+    <button type="button" class="btn btn-info">Register Here</button>
+  </a>
+</p>
 
 <h2 id="general">General Information</h2>
 
